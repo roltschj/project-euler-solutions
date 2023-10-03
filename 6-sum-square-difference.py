@@ -19,4 +19,4 @@ def getSquareOfSum(num):
 
     return sum**2
 
-print(getSquareOfSum(10) - getSumOfSquares(100)) #25164150
+print(getSquareOfSum(100) - getSumOfSquares(100)) #25164150
