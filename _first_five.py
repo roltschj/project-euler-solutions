@@ -1,4 +1,4 @@
-# First 100 problems in Project Euler
+# First 5 problems in Project Euler
 # Author: James Roltsch
 
 import math
@@ -44,12 +44,18 @@ def sumEvenFibNums(num):
 
 def isPrime(num):
 
-    i = 2
+    if num % 2 == 0:
+        if num == 2:
+            return True
+        else:
+            return False
+    	
+    i = 3
 
     while i <= math.sqrt(num):
         if num % i == 0:
             return False
-        i += 1
+        i += 2
 
     return True
 
